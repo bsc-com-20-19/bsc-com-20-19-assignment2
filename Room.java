@@ -3,7 +3,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.text.TextAlignment;
 
 /**
- * Room
+ *  a class for the Rooms
  */
 public class Room {
 
@@ -13,7 +13,7 @@ public class Room {
     String roomName;
     Button room; //room structure
 
-    //constructor
+    //constructor for the room class
     public Room(String isOnColor, String roomName, int width, int height) {
         this.isOnColor = isOnColor;
         this.roomName = roomName;
