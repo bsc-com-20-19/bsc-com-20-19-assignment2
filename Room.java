@@ -29,12 +29,13 @@ public class Room {
 
     }
 
+  
     public  void styleRoom(){
         room.setTextAlignment(TextAlignment.CENTER);
         room.setStyle("-fx-border-color: black ; -fx-border-radius: 0; -fx-background-color: " + (bulbStatus == true ? isOnColor: "grey" ));
 
     }
-
+  // setters for setbulbstatus  and setbulbonoff
     public void setBulbOnOff(){
         bulbStatus = !bulbStatus;
         styleRoom();
